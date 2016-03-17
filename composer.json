@@ -6,6 +6,7 @@
             "name": "Naveen"
         }],
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "piotrooo/wsdl-creator": "1.*"
     }
 }
