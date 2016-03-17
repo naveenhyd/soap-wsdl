@@ -1,0 +1,11 @@
+{
+    "name": "p6naveen/soap-wsdl",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Naveen"
+        }],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
