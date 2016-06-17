@@ -4,8 +4,14 @@
  * User methods
  * @author Naveen
  */
+require_once dirname(__DIR__) . "/vendor/autoload.php";
 
-namespace BambooTree;
+if (isset($_GET['wsdl'])) {
+    $wsdl = new WSDL\WSDLCreator('User', 'http://local.soap.com/src/User.php');
+    $wsdl->setNamespace("http://foo.bar/");
+    $wsdl->renderWSDL();
+    exit;
+}
 
 class User {
 

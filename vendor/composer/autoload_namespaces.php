@@ -7,5 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'WSDL\\' => array($vendorDir . '/piotrooo/wsdl-creator/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Mocks\\' => array($vendorDir . '/piotrooo/wsdl-creator/tests'),
+    'Factory\\' => array($vendorDir . '/piotrooo/wsdl-creator/tests'),
+    'Clients\\' => array($vendorDir . '/piotrooo/wsdl-creator/examples'),
 );
